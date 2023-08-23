@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Store Drug</title>
+    <style>
+        button {
+            background-color: slategray ; color: white
+        }
+        h1 {background-color: red; color: white;}
+        h3 {background-color: red; color: white;}
+        h4 {background-color: red; color: white;}
+        center {margin-top: 5%}
+        body {
+            background: url(https://scontent.fhan17-1.fna.fbcdn.net/v/t1.15752-9/366760329_1359367301456036_1584846295283352052_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_ohc=hDe4zUUTG50AX8PDcon&_nc_ht=scontent.fhan17-1.fna&oh=03_AdRYI5gip107iRSN7K0LVHFCJhmPa2aUOI0-pkbwQF9gVQ&oe=650D4B58);
+            background-position: 1px;
+        }
+        table {
+            border-radius: 1px;
+            background-color: red; color: white;
+        }
+    </style>
+</head>
+<body>
+<center>
+    <!--    <img src="https://th.bing.com/th/id/R.527cf91789cc0af3b6f8081ee5dd31c6?rik=UWDpO8ATEYMWLQ&pid=ImgRaw&r=0" alt="">-->
+    <h1>Store Stoner</h1>
+    <h3>Menu to day</h3>
+    <button onclick="showFormAdd()">Add Product</button>
+    <div id="form-add">
+    </div>
+    <div id="form-edit">
+    </div>
+    <br>
+    <br>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Products</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th colspan="2">Edit/Remove</th>
+        </tr>
+        <tbody id="list-product">
+
+        </tbody>
+    </table>
+</center>
+<script src="Duty.js"></script>
+<script src="ListProduct.js"></script>
+<script src="Index.js"></script>
+</body>
+</html>
